@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <h1> Expense Tracker</h1>
+    <p>Track your income & expenses easily</p>
+  </header>
+
+  <div class="border">
+    <div class="top">
+      <div class="income">
+        <h3>Income</h3>
+        <p>0</p>
+      </div>
+      <div class="expense">
+        <h3>Expense</h3>
+        <p>0</p>
+      </div>
+      <div class="balance">
+        <h3>Balance</h3>
+        <p>0</p>
+      </div>
+    </div>
+
+    <hr>
+    <input type="text" placeholder="Title" class="inp1" />
+    <input type="number" placeholder="Amount" class="inp2" />
+    <select class="sel">
+      <option value="">Select Type</option>
+      <option value="income">Income</option>
+      <option value="expense">Expense</option>
+    </select>
+    <button class="add">Add</button>
+
+    <div class="record"></div>
+  </div>
+
+  <footer class="footer">
+    <p>Made with  by Talha</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
